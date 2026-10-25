@@ -116,12 +116,21 @@ Built APKs are placed in `build/app/outputs/flutter-apk/`.
 ## 📲 Download
 
 A pre-built release APK is available in the
-[Releases](https://github.com/neeteshupreti/saafaDocs/releases) section.
-Download the APK for your device's architecture and install it.
+[`v1.0.0` Release](https://github.com/neeteshupreti/saafaDocs/releases/tag/v1.0.0)
+section. Download the APK for your device's architecture and install it.
 
-| Architecture | File                          |
-| ------------ | ----------------------------- |
-| arm64-v8a    | `app-arm64-v8a-release.apk`   |
+| Architecture | File                          | Direct link |
+| ------------ | ----------------------------- | ----------- |
+| arm64-v8a    | `app-arm64-v8a-release.apk`   | [download](https://github.com/neeteshupreti/saafaDocs/releases/download/v1.0.0/app-arm64-v8a-release.apk) |
+| armeabi-v7a  | `app-armeabi-v7a-release.apk` | [download](https://github.com/neeteshupreti/saafaDocs/releases/download/v1.0.0/app-armeabi-v7a-release.apk) |
+| x86_64       | `app-x86_64-release.apk`      | [download](https://github.com/neeteshupreti/saafaDocs/releases/download/v1.0.0/app-x86_64-release.apk) |
+
+> 💡 Not sure which one you need? **arm64-v8a** is the most common for modern
+> phones. See [this guide](https://github.com/neeteshupreti/saafaDocs/releases)
+> for help identifying your device's architecture.
+
+The latest source code is always on the `main` branch; release tags are used for
+stable builds.
 | armeabi-v7a  | `app-armeabi-v7a-release.apk` |
 | x86_64       | `app-x86_64-release.apk`      |
 
